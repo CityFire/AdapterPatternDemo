@@ -15,6 +15,31 @@
 		0420257E1E9FC6B400BD6482 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0420257C1E9FC6B400BD6482 /* LaunchScreen.storyboard */; };
 		042025891E9FC6B400BD6482 /* AdapterPatternDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 042025881E9FC6B400BD6482 /* AdapterPatternDemoTests.m */; };
 		042025941E9FC6B400BD6482 /* AdapterPatternDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 042025931E9FC6B400BD6482 /* AdapterPatternDemoUITests.m */; };
+		042025AF1E9FC74300BD6482 /* TTCommonArrowItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 042025A61E9FC74300BD6482 /* TTCommonArrowItem.m */; };
+		042025B01E9FC74300BD6482 /* TTCommonGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 042025A81E9FC74300BD6482 /* TTCommonGroup.m */; };
+		042025B11E9FC74300BD6482 /* TTCommonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 042025AA1E9FC74300BD6482 /* TTCommonItem.m */; };
+		042025B21E9FC74300BD6482 /* TTCommonLabelItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 042025AC1E9FC74300BD6482 /* TTCommonLabelItem.m */; };
+		042025B31E9FC74300BD6482 /* TTCommonSwitchItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 042025AE1E9FC74300BD6482 /* TTCommonSwitchItem.m */; };
+		042025B81E9FC75000BD6482 /* TTBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 042025B51E9FC75000BD6482 /* TTBadgeView.m */; };
+		042025B91E9FC75000BD6482 /* TTCommonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 042025B71E9FC75000BD6482 /* TTCommonCell.m */; };
+		042025BC1E9FC75B00BD6482 /* TTCommonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042025BB1E9FC75B00BD6482 /* TTCommonViewController.m */; };
+		042025C01E9FC81000BD6482 /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = 042025BF1E9FC81000BD6482 /* UIColor+HexString.m */; };
+		042025C31E9FC8FF00BD6482 /* UIView+ExtFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 042025C21E9FC8FF00BD6482 /* UIView+ExtFrame.m */; };
+		042025C71E9FCA1F00BD6482 /* TTSettingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 042025C61E9FCA1F00BD6482 /* TTSettingManager.m */; };
+		042025CB1E9FCE8300BD6482 /* TTMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042025CA1E9FCE8300BD6482 /* TTMineViewController.m */; };
+		042025CF1E9FCEB700BD6482 /* TTUserCenterHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 042025CE1E9FCEB700BD6482 /* TTUserCenterHeaderView.m */; };
+		042025D21E9FCEFF00BD6482 /* TTEditInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042025D11E9FCEFF00BD6482 /* TTEditInfoViewController.m */; };
+		042025D51E9FCF0A00BD6482 /* TTMyFavouriteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042025D41E9FCF0A00BD6482 /* TTMyFavouriteViewController.m */; };
+		042025D81E9FCF2200BD6482 /* TTMyFansViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042025D71E9FCF2200BD6482 /* TTMyFansViewController.m */; };
+		042025DB1E9FCF2B00BD6482 /* TTMyFocusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042025DA1E9FCF2B00BD6482 /* TTMyFocusViewController.m */; };
+		042025DE1E9FCF3600BD6482 /* TTHistoryRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042025DD1E9FCF3600BD6482 /* TTHistoryRecordViewController.m */; };
+		042025E11E9FCF4600BD6482 /* TTSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042025E01E9FCF4600BD6482 /* TTSettingViewController.m */; };
+		042025E41E9FCF6900BD6482 /* TTLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042025E31E9FCF6900BD6482 /* TTLoginViewController.m */; };
+		042025E71E9FCF8E00BD6482 /* TTAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042025E61E9FCF8E00BD6482 /* TTAboutViewController.m */; };
+		042025EA1E9FCF9800BD6482 /* TTFeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042025E91E9FCF9800BD6482 /* TTFeedbackViewController.m */; };
+		042025ED1E9FD58A00BD6482 /* TTAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 042025EC1E9FD58A00BD6482 /* TTAlertView.m */; };
+		042025F01E9FD64F00BD6482 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 042025EF1E9FD64F00BD6482 /* UIImage+Extension.m */; };
+		9225AE3CCAE0884893FD075C /* libPods-AdapterPatternDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 226B8973037B64887F5BBE9F /* libPods-AdapterPatternDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +76,57 @@
 		0420258F1E9FC6B400BD6482 /* AdapterPatternDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdapterPatternDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		042025931E9FC6B400BD6482 /* AdapterPatternDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdapterPatternDemoUITests.m; sourceTree = "<group>"; };
 		042025951E9FC6B400BD6482 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		042025A51E9FC74300BD6482 /* TTCommonArrowItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTCommonArrowItem.h; path = Common/Model/TTCommonArrowItem.h; sourceTree = "<group>"; };
+		042025A61E9FC74300BD6482 /* TTCommonArrowItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTCommonArrowItem.m; path = Common/Model/TTCommonArrowItem.m; sourceTree = "<group>"; };
+		042025A71E9FC74300BD6482 /* TTCommonGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTCommonGroup.h; path = Common/Model/TTCommonGroup.h; sourceTree = "<group>"; };
+		042025A81E9FC74300BD6482 /* TTCommonGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTCommonGroup.m; path = Common/Model/TTCommonGroup.m; sourceTree = "<group>"; };
+		042025A91E9FC74300BD6482 /* TTCommonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTCommonItem.h; path = Common/Model/TTCommonItem.h; sourceTree = "<group>"; };
+		042025AA1E9FC74300BD6482 /* TTCommonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTCommonItem.m; path = Common/Model/TTCommonItem.m; sourceTree = "<group>"; };
+		042025AB1E9FC74300BD6482 /* TTCommonLabelItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTCommonLabelItem.h; path = Common/Model/TTCommonLabelItem.h; sourceTree = "<group>"; };
+		042025AC1E9FC74300BD6482 /* TTCommonLabelItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTCommonLabelItem.m; path = Common/Model/TTCommonLabelItem.m; sourceTree = "<group>"; };
+		042025AD1E9FC74300BD6482 /* TTCommonSwitchItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTCommonSwitchItem.h; path = Common/Model/TTCommonSwitchItem.h; sourceTree = "<group>"; };
+		042025AE1E9FC74300BD6482 /* TTCommonSwitchItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTCommonSwitchItem.m; path = Common/Model/TTCommonSwitchItem.m; sourceTree = "<group>"; };
+		042025B41E9FC75000BD6482 /* TTBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTBadgeView.h; path = Common/View/TTBadgeView.h; sourceTree = "<group>"; };
+		042025B51E9FC75000BD6482 /* TTBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTBadgeView.m; path = Common/View/TTBadgeView.m; sourceTree = "<group>"; };
+		042025B61E9FC75000BD6482 /* TTCommonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTCommonCell.h; path = Common/View/TTCommonCell.h; sourceTree = "<group>"; };
+		042025B71E9FC75000BD6482 /* TTCommonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTCommonCell.m; path = Common/View/TTCommonCell.m; sourceTree = "<group>"; };
+		042025BA1E9FC75B00BD6482 /* TTCommonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTCommonViewController.h; path = Common/Controller/TTCommonViewController.h; sourceTree = "<group>"; };
+		042025BB1E9FC75B00BD6482 /* TTCommonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTCommonViewController.m; path = Common/Controller/TTCommonViewController.m; sourceTree = "<group>"; };
+		042025BE1E9FC81000BD6482 /* UIColor+HexString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexString.h"; sourceTree = "<group>"; };
+		042025BF1E9FC81000BD6482 /* UIColor+HexString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexString.m"; sourceTree = "<group>"; };
+		042025C11E9FC8FF00BD6482 /* UIView+ExtFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ExtFrame.h"; sourceTree = "<group>"; };
+		042025C21E9FC8FF00BD6482 /* UIView+ExtFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ExtFrame.m"; sourceTree = "<group>"; };
+		042025C51E9FCA1F00BD6482 /* TTSettingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTSettingManager.h; path = SettingMgr/TTSettingManager.h; sourceTree = "<group>"; };
+		042025C61E9FCA1F00BD6482 /* TTSettingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTSettingManager.m; path = SettingMgr/TTSettingManager.m; sourceTree = "<group>"; };
+		042025C91E9FCE8300BD6482 /* TTMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTMineViewController.h; sourceTree = "<group>"; };
+		042025CA1E9FCE8300BD6482 /* TTMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTMineViewController.m; sourceTree = "<group>"; };
+		042025CD1E9FCEB700BD6482 /* TTUserCenterHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTUserCenterHeaderView.h; sourceTree = "<group>"; };
+		042025CE1E9FCEB700BD6482 /* TTUserCenterHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTUserCenterHeaderView.m; sourceTree = "<group>"; };
+		042025D01E9FCEFF00BD6482 /* TTEditInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTEditInfoViewController.h; sourceTree = "<group>"; };
+		042025D11E9FCEFF00BD6482 /* TTEditInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTEditInfoViewController.m; sourceTree = "<group>"; };
+		042025D31E9FCF0A00BD6482 /* TTMyFavouriteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTMyFavouriteViewController.h; sourceTree = "<group>"; };
+		042025D41E9FCF0A00BD6482 /* TTMyFavouriteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTMyFavouriteViewController.m; sourceTree = "<group>"; };
+		042025D61E9FCF2200BD6482 /* TTMyFansViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTMyFansViewController.h; sourceTree = "<group>"; };
+		042025D71E9FCF2200BD6482 /* TTMyFansViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTMyFansViewController.m; sourceTree = "<group>"; };
+		042025D91E9FCF2B00BD6482 /* TTMyFocusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTMyFocusViewController.h; sourceTree = "<group>"; };
+		042025DA1E9FCF2B00BD6482 /* TTMyFocusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTMyFocusViewController.m; sourceTree = "<group>"; };
+		042025DC1E9FCF3600BD6482 /* TTHistoryRecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTHistoryRecordViewController.h; sourceTree = "<group>"; };
+		042025DD1E9FCF3600BD6482 /* TTHistoryRecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTHistoryRecordViewController.m; sourceTree = "<group>"; };
+		042025DF1E9FCF4600BD6482 /* TTSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSettingViewController.h; sourceTree = "<group>"; };
+		042025E01E9FCF4600BD6482 /* TTSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTSettingViewController.m; sourceTree = "<group>"; };
+		042025E21E9FCF6900BD6482 /* TTLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTLoginViewController.h; sourceTree = "<group>"; };
+		042025E31E9FCF6900BD6482 /* TTLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTLoginViewController.m; sourceTree = "<group>"; };
+		042025E51E9FCF8E00BD6482 /* TTAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTAboutViewController.h; sourceTree = "<group>"; };
+		042025E61E9FCF8E00BD6482 /* TTAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTAboutViewController.m; sourceTree = "<group>"; };
+		042025E81E9FCF9800BD6482 /* TTFeedbackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTFeedbackViewController.h; sourceTree = "<group>"; };
+		042025E91E9FCF9800BD6482 /* TTFeedbackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTFeedbackViewController.m; sourceTree = "<group>"; };
+		042025EB1E9FD58A00BD6482 /* TTAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTAlertView.h; sourceTree = "<group>"; };
+		042025EC1E9FD58A00BD6482 /* TTAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTAlertView.m; sourceTree = "<group>"; };
+		042025EE1E9FD64F00BD6482 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		042025EF1E9FD64F00BD6482 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		13D5C2BF6C23DA8D5CE9A2E3 /* Pods-AdapterPatternDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdapterPatternDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AdapterPatternDemo/Pods-AdapterPatternDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		226B8973037B64887F5BBE9F /* libPods-AdapterPatternDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AdapterPatternDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3E110E17D234A510203CEB3 /* Pods-AdapterPatternDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdapterPatternDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-AdapterPatternDemo/Pods-AdapterPatternDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9225AE3CCAE0884893FD075C /* libPods-AdapterPatternDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +162,8 @@
 				042025871E9FC6B400BD6482 /* AdapterPatternDemoTests */,
 				042025921E9FC6B400BD6482 /* AdapterPatternDemoUITests */,
 				0420256C1E9FC6B400BD6482 /* Products */,
+				170290DD2188E80429D14B1E /* Pods */,
+				19659EE6E69CC1CF8260C3B6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +180,9 @@
 		0420256D1E9FC6B400BD6482 /* AdapterPatternDemo */ = {
 			isa = PBXGroup;
 			children = (
+				042025CC1E9FCEAF00BD6482 /* View */,
+				042025C81E9FCE7600BD6482 /* Controller */,
+				042025A11E9FC6F000BD6482 /* Common */,
 				042025711E9FC6B400BD6482 /* AppDelegate.h */,
 				042025721E9FC6B400BD6482 /* AppDelegate.m */,
 				042025741E9FC6B400BD6482 /* ViewController.h */,
@@ -140,6 +222,132 @@
 			path = AdapterPatternDemoUITests;
 			sourceTree = "<group>";
 		};
+		042025A11E9FC6F000BD6482 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				042025C41E9FCA0F00BD6482 /* SettingMgr */,
+				042025BD1E9FC80500BD6482 /* Category */,
+				042025A41E9FC71500BD6482 /* Model */,
+				042025A31E9FC71000BD6482 /* View */,
+				042025A21E9FC70600BD6482 /* Controller */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		042025A21E9FC70600BD6482 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				042025BA1E9FC75B00BD6482 /* TTCommonViewController.h */,
+				042025BB1E9FC75B00BD6482 /* TTCommonViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		042025A31E9FC71000BD6482 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				042025B41E9FC75000BD6482 /* TTBadgeView.h */,
+				042025B51E9FC75000BD6482 /* TTBadgeView.m */,
+				042025B61E9FC75000BD6482 /* TTCommonCell.h */,
+				042025B71E9FC75000BD6482 /* TTCommonCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		042025A41E9FC71500BD6482 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				042025A51E9FC74300BD6482 /* TTCommonArrowItem.h */,
+				042025A61E9FC74300BD6482 /* TTCommonArrowItem.m */,
+				042025A71E9FC74300BD6482 /* TTCommonGroup.h */,
+				042025A81E9FC74300BD6482 /* TTCommonGroup.m */,
+				042025A91E9FC74300BD6482 /* TTCommonItem.h */,
+				042025AA1E9FC74300BD6482 /* TTCommonItem.m */,
+				042025AB1E9FC74300BD6482 /* TTCommonLabelItem.h */,
+				042025AC1E9FC74300BD6482 /* TTCommonLabelItem.m */,
+				042025AD1E9FC74300BD6482 /* TTCommonSwitchItem.h */,
+				042025AE1E9FC74300BD6482 /* TTCommonSwitchItem.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		042025BD1E9FC80500BD6482 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				042025EE1E9FD64F00BD6482 /* UIImage+Extension.h */,
+				042025EF1E9FD64F00BD6482 /* UIImage+Extension.m */,
+				042025C11E9FC8FF00BD6482 /* UIView+ExtFrame.h */,
+				042025C21E9FC8FF00BD6482 /* UIView+ExtFrame.m */,
+				042025BE1E9FC81000BD6482 /* UIColor+HexString.h */,
+				042025BF1E9FC81000BD6482 /* UIColor+HexString.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		042025C41E9FCA0F00BD6482 /* SettingMgr */ = {
+			isa = PBXGroup;
+			children = (
+				042025C51E9FCA1F00BD6482 /* TTSettingManager.h */,
+				042025C61E9FCA1F00BD6482 /* TTSettingManager.m */,
+			);
+			name = SettingMgr;
+			sourceTree = "<group>";
+		};
+		042025C81E9FCE7600BD6482 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				042025E81E9FCF9800BD6482 /* TTFeedbackViewController.h */,
+				042025E91E9FCF9800BD6482 /* TTFeedbackViewController.m */,
+				042025E51E9FCF8E00BD6482 /* TTAboutViewController.h */,
+				042025E61E9FCF8E00BD6482 /* TTAboutViewController.m */,
+				042025E21E9FCF6900BD6482 /* TTLoginViewController.h */,
+				042025E31E9FCF6900BD6482 /* TTLoginViewController.m */,
+				042025DF1E9FCF4600BD6482 /* TTSettingViewController.h */,
+				042025E01E9FCF4600BD6482 /* TTSettingViewController.m */,
+				042025DC1E9FCF3600BD6482 /* TTHistoryRecordViewController.h */,
+				042025DD1E9FCF3600BD6482 /* TTHistoryRecordViewController.m */,
+				042025D91E9FCF2B00BD6482 /* TTMyFocusViewController.h */,
+				042025DA1E9FCF2B00BD6482 /* TTMyFocusViewController.m */,
+				042025D61E9FCF2200BD6482 /* TTMyFansViewController.h */,
+				042025D71E9FCF2200BD6482 /* TTMyFansViewController.m */,
+				042025D31E9FCF0A00BD6482 /* TTMyFavouriteViewController.h */,
+				042025D41E9FCF0A00BD6482 /* TTMyFavouriteViewController.m */,
+				042025D01E9FCEFF00BD6482 /* TTEditInfoViewController.h */,
+				042025D11E9FCEFF00BD6482 /* TTEditInfoViewController.m */,
+				042025C91E9FCE8300BD6482 /* TTMineViewController.h */,
+				042025CA1E9FCE8300BD6482 /* TTMineViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		042025CC1E9FCEAF00BD6482 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				042025EB1E9FD58A00BD6482 /* TTAlertView.h */,
+				042025EC1E9FD58A00BD6482 /* TTAlertView.m */,
+				042025CD1E9FCEB700BD6482 /* TTUserCenterHeaderView.h */,
+				042025CE1E9FCEB700BD6482 /* TTUserCenterHeaderView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		170290DD2188E80429D14B1E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				13D5C2BF6C23DA8D5CE9A2E3 /* Pods-AdapterPatternDemo.debug.xcconfig */,
+				B3E110E17D234A510203CEB3 /* Pods-AdapterPatternDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		19659EE6E69CC1CF8260C3B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				226B8973037B64887F5BBE9F /* libPods-AdapterPatternDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +355,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 042025981E9FC6B400BD6482 /* Build configuration list for PBXNativeTarget "AdapterPatternDemo" */;
 			buildPhases = (
+				1E44D054AB73171C6D8515AD /* [CP] Check Pods Manifest.lock */,
 				042025671E9FC6B400BD6482 /* Sources */,
 				042025681E9FC6B400BD6482 /* Frameworks */,
 				042025691E9FC6B400BD6482 /* Resources */,
+				24F233A1F0145D84C29BFEDA /* [CP] Embed Pods Frameworks */,
+				E420FF1173F23FBF9AA64F43 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -268,14 +479,86 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1E44D054AB73171C6D8515AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		24F233A1F0145D84C29BFEDA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AdapterPatternDemo/Pods-AdapterPatternDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E420FF1173F23FBF9AA64F43 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AdapterPatternDemo/Pods-AdapterPatternDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		042025671E9FC6B400BD6482 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				042025D21E9FCEFF00BD6482 /* TTEditInfoViewController.m in Sources */,
+				042025E11E9FCF4600BD6482 /* TTSettingViewController.m in Sources */,
+				042025DB1E9FCF2B00BD6482 /* TTMyFocusViewController.m in Sources */,
+				042025D81E9FCF2200BD6482 /* TTMyFansViewController.m in Sources */,
+				042025E71E9FCF8E00BD6482 /* TTAboutViewController.m in Sources */,
+				042025B01E9FC74300BD6482 /* TTCommonGroup.m in Sources */,
+				042025F01E9FD64F00BD6482 /* UIImage+Extension.m in Sources */,
+				042025B31E9FC74300BD6482 /* TTCommonSwitchItem.m in Sources */,
+				042025EA1E9FCF9800BD6482 /* TTFeedbackViewController.m in Sources */,
+				042025C31E9FC8FF00BD6482 /* UIView+ExtFrame.m in Sources */,
 				042025761E9FC6B400BD6482 /* ViewController.m in Sources */,
+				042025AF1E9FC74300BD6482 /* TTCommonArrowItem.m in Sources */,
+				042025B81E9FC75000BD6482 /* TTBadgeView.m in Sources */,
+				042025C71E9FCA1F00BD6482 /* TTSettingManager.m in Sources */,
 				042025731E9FC6B400BD6482 /* AppDelegate.m in Sources */,
+				042025C01E9FC81000BD6482 /* UIColor+HexString.m in Sources */,
+				042025B21E9FC74300BD6482 /* TTCommonLabelItem.m in Sources */,
+				042025E41E9FCF6900BD6482 /* TTLoginViewController.m in Sources */,
 				042025701E9FC6B400BD6482 /* main.m in Sources */,
+				042025B91E9FC75000BD6482 /* TTCommonCell.m in Sources */,
+				042025BC1E9FC75B00BD6482 /* TTCommonViewController.m in Sources */,
+				042025D51E9FCF0A00BD6482 /* TTMyFavouriteViewController.m in Sources */,
+				042025ED1E9FD58A00BD6482 /* TTAlertView.m in Sources */,
+				042025B11E9FC74300BD6482 /* TTCommonItem.m in Sources */,
+				042025DE1E9FCF3600BD6482 /* TTHistoryRecordViewController.m in Sources */,
+				042025CB1E9FCE8300BD6482 /* TTMineViewController.m in Sources */,
+				042025CF1E9FCEB700BD6482 /* TTUserCenterHeaderView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +707,7 @@
 		};
 		042025991E9FC6B400BD6482 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13D5C2BF6C23DA8D5CE9A2E3 /* Pods-AdapterPatternDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AdapterPatternDemo/Info.plist;
@@ -435,6 +719,7 @@
 		};
 		0420259A1E9FC6B400BD6482 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3E110E17D234A510203CEB3 /* Pods-AdapterPatternDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AdapterPatternDemo/Info.plist;
@@ -509,6 +794,7 @@
 				0420259A1E9FC6B400BD6482 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0420259B1E9FC6B400BD6482 /* Build configuration list for PBXNativeTarget "AdapterPatternDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +803,7 @@
 				0420259D1E9FC6B400BD6482 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0420259E1E9FC6B400BD6482 /* Build configuration list for PBXNativeTarget "AdapterPatternDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +812,7 @@
 				042025A01E9FC6B400BD6482 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
