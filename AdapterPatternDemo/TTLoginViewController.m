@@ -8,8 +8,6 @@
 
 #import "TTLoginViewController.h"
 
-static float kbottomLineHeight = 0.5;
-
 typedef NS_ENUM(NSUInteger, TTThirdLoginTypeTag) {
     TTThirdLoginTypeTagWeChat = 1000,
     TTThirdLoginTypeTagQQ     = 1001,

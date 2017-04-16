@@ -97,6 +97,7 @@ static CGFloat kCellLineHeight = 0.5;
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    // 要用组件化解耦 通过runtime和json传参解耦 避免页面A和页面B的依赖 依赖抽象类，不依赖具体类
     TTCommonGroup *group = self.datas[indexPath.section];
     TTCommonItem *item = group.items[indexPath.row];
     if ([item isKindOfClass:[TTCommonLabelItem class]] && !item.OperationBlock) {

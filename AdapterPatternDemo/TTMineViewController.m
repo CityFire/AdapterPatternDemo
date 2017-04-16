@@ -59,13 +59,23 @@
 
 #pragma mark - lifeCycle
 
+id __weak obj1 = nil;
+
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    id __strong obj0 = [[NSObject alloc] init];
+    NSLog(@"obj0:%@", obj0);
+    obj1 = obj0;
+    
+    NSLog(@"A:%@", obj1);
     
     [self initView];
 }
 
 - (void)initView {
+    NSLog(@"B:%@", obj1);
+    
     self.tableView.tableHeaderView = self.headerView;
     self.tableView.tableFooterView = self.footerV;
     
@@ -129,7 +139,7 @@
         make.top.mas_equalTo(self.view);
         make.left.mas_equalTo(self.view);
         make.right.mas_equalTo(self.view);
-        make.height.mas_equalTo([UIScreen mainScreen].bounds.size.height-49);
+        make.height.mas_equalTo([UIScreen mainScreen].bounds.size.height);
     }];
     
 }
@@ -138,10 +148,11 @@
     [super viewWillAppear:animated];
     // 目前逻辑是有屏蔽才重新请求，否则不请求，运营那边审核不通过会被屏蔽
     [self.navigationController.navigationBar setHidden:YES];
+    NSLog(@"B:%@", obj1);
 }
 
-- (void)viewDidDisappear:(BOOL)animated {
-    [super viewDidDisappear:animated];
+- (void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:animated];
     [self.navigationController.navigationBar setHidden:NO];
 }
 

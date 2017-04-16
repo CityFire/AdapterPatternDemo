@@ -162,10 +162,10 @@ static NSString * const kJumpAppStoreUrl = @"https://itunes.apple.com/WebObjects
     }];
     
     [self.tableView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.mas_equalTo(self.view).with.offset(64);
+        make.top.mas_equalTo(self.view).with.offset(0);
         make.left.mas_equalTo(self.view);
         make.right.mas_equalTo(self.view);
-        make.height.mas_equalTo(SCREENHEIGHT-64);
+        make.height.mas_equalTo(SCREENHEIGHT);
     }];
 }
 
@@ -202,7 +202,10 @@ static NSString * const kJumpAppStoreUrl = @"https://itunes.apple.com/WebObjects
     item11.OperationBlock = ^() {
         NSURL *url = [NSURL URLWithString:kJumpAppStoreUrl];
         if ([[UIApplication sharedApplication] canOpenURL:url]) {
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wdeprecated-declarations"
             [[UIApplication sharedApplication] openURL:url];
+#pragma clang diagnostic pop
         }
         else {
             NSLog(@"can't open");
@@ -270,10 +273,10 @@ static NSString * const kJumpAppStoreUrl = @"https://itunes.apple.com/WebObjects
     TTCommonLabelItem *item02 = (TTCommonLabelItem *)self.group0.items[1];
     NSDictionary *infoDic = [[NSBundle mainBundle] infoDictionary];
     NSString *currentVersion = [infoDic valueForKey:@"CFBundleShortVersionString"];
-    NSDictionary *param = @{@"ver":currentVersion, @"os":@"ios"};
+//    NSDictionary *param = @{@"ver":currentVersion, @"os":@"ios"};
     // 网络请求
     [UIApplication sharedApplication].networkActivityIndicatorVisible = YES;
-    __weak typeof(self) weakSelf = self;
+//    __weak typeof(self) weakSelf = self;
 //    [TTDataRequest requestVersionUpdateWithParam:param Handler:^(NSDictionary *resultDict, NSInteger code, NSString *message) {
 //        [UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
 //        @strongify(self);
@@ -338,7 +341,7 @@ static NSString * const kJumpAppStoreUrl = @"https://itunes.apple.com/WebObjects
 }
 
 - (void)checkUpdate {
-    __weak typeof(self) weakSelf = self;
+//    __weak typeof(self) weakSelf = self;
     
     if ((self.trackViewUrl && ![self.trackViewUrl isEqualToString:@""]) || [[TTSettingManager shareInstance] boolValueWithKey:kNewVersionCheck defaultValue:NO]) {
         NSLog(@"有新版本");
